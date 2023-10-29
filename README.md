@@ -37,3 +37,7 @@ import {useAuthState} from "react-firebase-hooks/auth" ekleyelim. Nereye ekleyel
 25. Bu collection u uygulamadan okumak için, firebase.js e __import {getFireStore} from 'firebase/firestore'__ ekleyelim
 ## 10 Firestore'a Veri Ekleme isimli video
 25. AddPost.js adında bir component oluşturalım
+    ## How to deploy an application into netlify
+    1.npm run build
+    2. bu komut sonrasında oluşan build dizinini, netlify a drag and drop
+    3. https://firebasely.netlify.app/
